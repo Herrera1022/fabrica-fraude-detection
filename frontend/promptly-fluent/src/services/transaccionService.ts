@@ -1,6 +1,6 @@
 // src/services/transaccionService.ts
 
-const API_URL = "http://localhost:8080/api/transacciones";
+const API_URL = "https://fabrica-fraude-detection-production.up.railway.app/api/transacciones";
 
 export interface Transaccion {
   id?: number;

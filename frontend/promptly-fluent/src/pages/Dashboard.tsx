@@ -57,7 +57,7 @@ const Dashboard = () => {
         
         // Fetch transacciones
         const transResponse = await fetch(
-          `http://localhost:8080/api/transacciones/cuenta/${user.numeroCuenta}`,
+          `https://fabrica-fraude-detection-production.up.railway.app/api/transacciones/cuenta/${user.numeroCuenta}`,
         );
         
         console.log("📡 Respuesta transacciones:", transResponse.status);
